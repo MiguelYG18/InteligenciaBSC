@@ -11,20 +11,74 @@ import java.util.ArrayList;
  * @author MIGUEL
  */
 public class CuentaAñoBO {
-    public ArrayList<CuentaAño> buscarCuenta(String estado) throws Exception{  
+    public ArrayList<CuentaAño> buscarCuenta() throws Exception{  
         
         try {
             CuentaAñoDAO cuentaAño = new CuentaAñoDAO();
-            return cuentaAño.buscarCuentad(estado);
+            return cuentaAño.buscarCuentad();
         } catch (Exception e) {
             throw e;
         }        
     }     
-    public ArrayList<CuentaAño> buscarCuenta22(String estado) throws Exception{  
+    public ArrayList<CuentaAño> buscarCuenta22() throws Exception{  
         
         try {
             CuentaAñoDAO cuentaAño = new CuentaAñoDAO();
-            return cuentaAño.buscarCuentad22(estado);
+            return cuentaAño.buscarCuentad22();
+        } catch (Exception e) {
+            throw e;
+        }        
+    }
+    public ArrayList<CuentaAño> buscarCuentaTodo() throws Exception{  
+        
+        try {
+            CuentaAñoDAO cuentaAño = new CuentaAñoDAO();
+            return cuentaAño.buscarCuentadTodo();
+        } catch (Exception e) {
+            throw e;
+        }        
+    }
+    public ArrayList<CuentaAño> buscarTotalActivoPasivo21() throws Exception{  
+        
+        try {
+            CuentaAñoDAO cuentaAño = new CuentaAñoDAO();
+            return cuentaAño.buscarTotalActivoPasivo21();
+        } catch (Exception e) {
+            throw e;
+        }        
+    }
+    public ArrayList<CuentaAño> buscarTotalActivoPasivo22() throws Exception{  
+        
+        try {
+            CuentaAñoDAO cuentaAño = new CuentaAñoDAO();
+            return cuentaAño.buscarTotalActivoPasivo22();
+        } catch (Exception e) {
+            throw e;
+        }        
+    }
+    public ArrayList<CuentaAño> RazonLiquidez() throws Exception{  
+        
+        try {
+            CuentaAñoDAO cuentaAño = new CuentaAñoDAO();
+            return cuentaAño.RazonLiquidez();
+        } catch (Exception e) {
+            throw e;
+        }        
+    }
+    public ArrayList<CuentaAño> RazonRentabilidad() throws Exception{  
+        
+        try {
+            CuentaAñoDAO cuentaAño = new CuentaAñoDAO();
+            return cuentaAño.RazonRentabilidad();
+        } catch (Exception e) {
+            throw e;
+        }        
+    }
+    public ArrayList<CuentaAño> IngresoActividades() throws Exception{  
+        
+        try {
+            CuentaAñoDAO cuentaAño = new CuentaAñoDAO();
+            return cuentaAño.IngresoActividades();
         } catch (Exception e) {
             throw e;
         }        

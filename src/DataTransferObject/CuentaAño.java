@@ -17,6 +17,10 @@ public class CuentaAño {
     private double monto;
     private double monto21;
     private double monto22;
+    private String total;
+    private double totalActivo;
+    private double totalPasivo;
+
 
     public int getId_cuenta() {
         return id_cuenta;
@@ -81,6 +85,33 @@ public class CuentaAño {
     public void setEstado(Estado estado) {
         this.estado = estado;
     }
+
+    public double getTotalActivo() {
+        return totalActivo;
+    }
+
+    public void setTotalActivo(double totalActivo21) {
+        this.totalActivo = totalActivo21;
+    }
+
+    public double getTotalPasivo() {
+        return totalPasivo;
+    }
+
+    public void setTotalPasivo(double totalPasivo21) {
+        this.totalPasivo = totalPasivo21;
+    }
+
+    public String getTotal() {
+        return total;
+    }
+
+    public void setTotal(String total) {
+        this.total = total;
+    }
+
+
+
     
     
     

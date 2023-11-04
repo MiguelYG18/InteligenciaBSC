@@ -13,8 +13,11 @@ public class ActividadAño {
     private int id_año;
     private Actividad actividad;
     private Año año;
+    private Cuenta cuenta;
     private double monto;
-
+    private double monto21;
+    private double monto22; 
+    
     public int getId_actividad() {
         return id_actividad;
     }
@@ -53,6 +56,30 @@ public class ActividadAño {
 
     public void setMonto(double monto) {
         this.monto = monto;
+    }
+
+    public double getMonto21() {
+        return monto21;
+    }
+
+    public void setMonto21(double monto21) {
+        this.monto21 = monto21;
+    }
+
+    public double getMonto22() {
+        return monto22;
+    }
+
+    public void setMonto22(double monto22) {
+        this.monto22 = monto22;
+    }
+
+    public Cuenta getCuenta() {
+        return cuenta;
+    }
+
+    public void setCuenta(Cuenta cuenta) {
+        this.cuenta = cuenta;
     }
     
     
